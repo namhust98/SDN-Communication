@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.onosproject</groupId>
+        <artifactId>onos-dependencies</artifactId>
+        <version>2.3.0</version>
+    </parent>
+
+    <artifactId>sina</artifactId>
+    <version>1.0.0</version>
+    <packaging>bundle</packaging>
+
+    <description>SDN Inter-Clusters' Network Application</description>
+
+    <properties>
+        <onos.app.name>org.onosproject.sina</onos.app.name>
+        <web.context>/onos/sina</web.context>
+        <api.version>1.0.0</api.version>
+        <api.title>SINA REST API</api.title>
+        <api.description>APIs for SINA application.</api.description>
+        <api.package>org.onosproject.sina.restapi</api.package>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>osgi.cmpn</artifactId>
+            <version>7.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onos-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onos-core-serializers</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onos-cli</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onlab-osgi</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onlab-misc</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet</artifactId>
+            <version>2.27</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20200518</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mashape.unirest</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>1.4.9</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.onosproject</groupId>
+                <artifactId>onos-maven-plugin</artifactId>
+                <version>2.2.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>5.1.1</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+<!--                        <feature>-->
+<!--                            <capability>osgi.wiring.package;osgi.wiring.package=com.google.gson;version>=2.8.0;!(version>=3.0.0)</capability>-->
+<!--                        </feature>-->
+                        <_wab>src/main/webapp/</_wab>
+                        <Include-Resource>WEB-INF/classes/apidoc/swagger.json=target/swagger.json, {maven-resources}</Include-Resource>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Import-Package>*,org.glassfish.jersey.servlet</Import-Package>
+                        <Export-Package>org.json.*, com.mashape.unirest.*, org.apache.http.*</Export-Package>
+                        <Web-ContextPath>${web.context}</Web-ContextPath>
+                        <Bundle-Activator>org.onosproject.sina.activator.MyActivator</Bundle-Activator>
+<!--                        <Embed-Dependency>gson;scope=compile|runtime</Embed-Dependency>-->
+<!--                        <Embed-Transitive>true</Embed-Transitive>-->
+                        <!--                        <_removeheaders>Require-Capability</_removeheaders>-->
+<!--                        <Require-Bundle>com.google.gson</Require-Bundle>-->
+<!--                        <Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>-->
+<!--                        <Require-Capability>osgi.service;effective:=active;filter:="(objectClass=com.google.gson.JsonObject)"</Require-Capability>-->
+                        <Bundle-Name>${project.artifactId}</Bundle-Name>
+                        <Bundle-Version>1.0.0</Bundle-Version>
+                        <Bundle-Description>${pom.name}</Bundle-Description>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

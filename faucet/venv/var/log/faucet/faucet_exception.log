@@ -1,0 +1,126 @@
+Sep 03 20:58:47 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 14 21:02:38 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 14 22:40:58 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:22:32 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:24:23 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:28:58 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:31:18 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:33:13 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:56:07 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:57:54 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 10:59:39 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 15 11:01:34 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 19 15:31:09 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException
+Sep 19 16:01:02 faucet.exception ERROR    Unhandled exception, killing RYU
+Traceback (most recent call last):
+  File "/home/namhust98/sina/faucet/faucet/valve_util.py", line 34, in __koe
+    func(*args, **kwargs)
+  File "/home/namhust98/sina/faucet/faucet/faucet.py", line 149, in _check_thread_exception
+    super(Faucet, self)._check_thread_exception()
+  File "/home/namhust98/sina/faucet/faucet/valve_ryuapp.py", line 91, in _check_thread_exception
+    raise ValveDeadThreadException
+faucet.valve_ryuapp.ValveDeadThreadException

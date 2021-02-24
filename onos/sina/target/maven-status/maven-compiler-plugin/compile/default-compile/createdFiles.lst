@@ -1,0 +1,12 @@
+org/onosproject/sina/locallistener/SinaListenerManager.class
+org/onosproject/sina/restapi/localtopologyapi/SinaLocalTopologyApi.class
+org/onosproject/sina/restapi/SinaApiManager.class
+org/onosproject/sina/restapi/updateinfoapi/SinaUpdateInfoApiService.class
+org/onosproject/sina/restapi/ApiDocRegistrator.class
+org/onosproject/sina/restapi/updateinfoapi/SinaUpdateInfoApi.class
+org/onosproject/sina/locallistener/SinaListenerManager$LocalLinkListener.class
+org/onosproject/sina/locallistener/SinaListenerManager$1.class
+org/onosproject/sina/activator/MyActivator.class
+org/onosproject/sina/locallistener/SinaListenerManager$LocalDeviceListener.class
+org/onosproject/sina/locallistener/SinaListenerManager$LocalHostListener.class
+org/onosproject/sina/restapi/localtopologyapi/SinaLocalTopologyApiService.class

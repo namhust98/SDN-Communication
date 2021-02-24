@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.10">
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/activator/package-info.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/activator/MyActivator.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/package-info.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/updateinfoapi/SinaUpdateInfoApiService.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/updateinfoapi/package-info.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/updateinfoapi/SinaUpdateInfoApi.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/SinaApiManager.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/localtopologyapi/SinaLocalTopologyApi.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/localtopologyapi/package-info.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/restapi/localtopologyapi/SinaLocalTopologyApiService.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/locallistener/package-info.java">
+</file>
+<file name="/home/namhust98/sina/onos/sina/src/main/java/org/onosproject/sina/locallistener/SinaListenerManager.java">
+</file>
+</checkstyle>

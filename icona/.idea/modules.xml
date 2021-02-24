@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/onos-app-icona.iml" filepath="$PROJECT_DIR$/app/onos-app-icona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainmgr/onos-app-icona-domain-manager.iml" filepath="$PROJECT_DIR$/domainmgr/onos-app-icona-domain-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainprovider/onos-app-icona-domain-provider.iml" filepath="$PROJECT_DIR$/domainprovider/onos-app-icona-domain-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onos-icona.iml" filepath="$PROJECT_DIR$/onos-icona.iml" />
+    </modules>
+  </component>
+</project>

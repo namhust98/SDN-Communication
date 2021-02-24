@@ -1,0 +1,35 @@
+module sina {
+    yang-version 1.1;
+    namespace "urn:opendaylight:params:xml:ns:yang:sina";
+    prefix "sina";
+
+    revision "2020-09-08" { // TODO change revision to date of model creation
+        description "Initial revision of sina model";
+    }
+
+    rpc simpleApi {
+        input {
+            leaf in {
+                type string;
+            }
+        }
+        output {
+            leaf out {
+                type string;
+            }
+        }
+    }
+
+    rpc updateData {
+        input {
+            leaf data {
+                type string;
+            }
+        }
+        output {
+            leaf result {
+                type string;
+            }
+        }
+    }
+}
